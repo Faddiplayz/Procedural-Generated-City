@@ -1,0 +1,71 @@
+/* color palette
+# 
+#985ba4
+#ffe7ff
+#00c9bd
+*/
+
+div, h1, h2, h3{
+    display: flex;
+    font-family: sans-serif;
+    align-items: center;
+    float: left;
+}
+
+.bigSquare{
+    width:900px;
+    height: 900px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square {
+    /*width: 100px;
+    height: 100px;*/
+    width: 1%;
+    height:1% ;
+}
+
+.border{
+    background-color: black;
+}
+
+.gras{
+    background-color: green;
+}
+
+.water{
+    background-color: blue;
+}
+
+.street{
+    background-color: gray;
+}
+
+.building{
+    background-color:lightblue;
+}
+
+.forest{
+    background-color: darkgreen;
+}
+
+.deepforest{
+    background-color: rgb(0, 90, 0);
+}
+
+.clear{
+    clear:both;
+}
+
+/*header{
+    background-color: #632a70;
+    height: 50px;
+    box-shadow: 0px 0px 28px -4px rgba(215, 84, 255, 0.75);
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 8px;
+    position: sticky;
+    top: 0;
+}*/

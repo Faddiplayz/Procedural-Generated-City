@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!--The Perlin Noise library by josephg https://github.com/josephg/noisejs-->
+    <script src="noisejs-master/perlin.js" defer></script>
+    <!--The seeded random number library by davidbau https://github.com/davidbau/seedrandom-->
+    <script src="seedrandom-released/seedrandom.min.js" defer></script>
+    <script src="script.js" defer></script>
+</head>
+
+<header>
+</header>
+
+<body class="home">
+    
+    <div>
+        <input type=""number" id="seed" name="seed" min="1000" max="9999" value="1000" step="1">
+        <label for="seed"> 4 digit seed</label>
+        <button id="Generate" value="Generate" onclick="generate();">Generate</button>
+    </div>
+    <div id="bigger square" class="bigSquare">
+    </div>
+</body>
+</html>
